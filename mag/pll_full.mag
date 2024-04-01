@@ -1,6 +1,8 @@
 magic
 tech sky130A
-timestamp 1711730732
+timestamp 1711901915
+<< checkpaint >>
+rect 7639 2155 13908 10545
 << nwell >>
 rect -3185 7805 -3090 9815
 rect -3290 7585 -2985 7805
@@ -28,12 +30,6 @@ rect -3205 7640 -3070 7645
 rect -5021 7545 -4477 7604
 rect -4534 7380 -4479 7545
 rect 7885 6690 8744 6954
-rect 8877 6609 8945 6792
-rect 11198 6612 12298 6614
-rect 10183 6609 12298 6612
-rect 8874 6551 12298 6609
-rect 8874 6548 10214 6551
-rect 11198 6550 12298 6551
 rect -1492 6376 -1368 6388
 rect -5053 5917 -4915 6349
 rect -4015 5926 -3823 6332
@@ -297,29 +293,29 @@ rect -4630 3765 -4625 3805
 rect -4675 3760 -4625 3765
 rect -5791 3090 -4643 3260
 use ro_complete  ro_complete_0
-timestamp 1711730514
+timestamp 1647788355
 transform 1 0 8617 0 1 8475
 box -348 -5690 4661 1440
-use pd  pd_0
-timestamp 1711730514
-transform 1 0 -4845 0 1 5180
-box -215 -855 1685 810
-use divider  divider_0
-timestamp 1647769399
-transform 1 0 -4910 0 1 1985
-box -490 -235 4690 2150
-use filter  filter_0
-timestamp 1640983258
-transform 1 0 1810 0 1 10450
-box -1800 -11005 6240 390
-use cp  cp_0
-timestamp 1640911461
-transform 1 0 -4895 0 1 7840
-box -415 -1715 4690 2035
 use inverter  inverter_0
 timestamp 1647877520
 transform 1 0 -2894 0 1 4593
 box 75 -311 310 557
+use cp  cp_0
+timestamp 1640911461
+transform 1 0 -4895 0 1 7840
+box -415 -1715 4690 2035
+use filter  filter_0
+timestamp 1640983258
+transform 1 0 1810 0 1 10450
+box -1800 -11005 6240 390
+use divider  divider_0
+timestamp 1647769399
+transform 1 0 -4910 0 1 1985
+box -490 -235 4690 2150
+use pd  pd_0
+timestamp 1711730514
+transform 1 0 -4845 0 1 5180
+box -215 -855 1685 810
 << labels >>
 rlabel locali -3140 7755 -3140 7755 1 vdd!
 rlabel metal4 -3755 9794 -3755 9795 1 vdd!
@@ -327,4 +323,10 @@ rlabel metal2 -4810 1956 -4810 1956 1 div
 rlabel metal2 -2696 4201 -2696 4201 1 vco
 rlabel metal2 -5084 5583 -5084 5583 1 ref
 rlabel locali -74 3770 -74 3770 1 gnd!
+rlabel space 9739 6638 9739 6638 1 a0
+rlabel space 10231 6623 10231 6623 1 a1
+rlabel space 10721 6626 10721 6626 1 a2
+rlabel space 11204 6625 11204 6625 1 a3
+rlabel space 11694 6604 11694 6604 1 a4
+rlabel space 12292 6623 12292 6623 1 a5
 << end >>
