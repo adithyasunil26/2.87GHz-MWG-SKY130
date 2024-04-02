@@ -1,6 +1,6 @@
 * SPICE3 file created from cp.ext - technology: sky130A
 
-.lib "/Volumes/Adithya_Ext/Coding_stuff/sky130test/ro/sky130A/libs.tech/ngspice/sky130.lib.spice" tt
+.lib "<path_to_pdk>/sky130A/libs.tech/ngspice/sky130.lib.spice" tt
 
 .global vdd gnd
 Vdd vdd gnd 1.8
