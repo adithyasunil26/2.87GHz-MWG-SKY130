@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1712761407
+timestamp 1712764245
 << psubdiff >>
 rect 132 -121 262 -106
 rect 132 -221 147 -121
@@ -148,10 +148,12 @@ rect 2210 675 2280 685
 rect 3720 680 3730 700
 rect 3800 680 3810 750
 rect 3720 670 3810 680
-rect 3598 415 3628 426
+rect 3598 420 3628 426
+rect 3598 415 3632 420
 rect 3598 338 3606 415
-rect 3623 338 3628 415
-rect 3598 330 3628 338
+rect 3623 338 3632 415
+rect 3598 336 3632 338
+rect 3598 330 3628 336
 rect 115 81 300 245
 rect 4111 132 4261 147
 rect 115 -121 275 81
@@ -383,17 +385,17 @@ rect 3743 -3901 3954 -3900
 rect 3822 -3904 3954 -3901
 rect 3822 -3907 3944 -3904
 use cbank_smol  cbank_1
-timestamp 1712760765
+timestamp 1712761727
 transform 1 0 -42 0 1 -2705
-box 686 -840 4075 695
+box 686 -840 3611 695
 use cbank_smol  cbank_2
-timestamp 1712760765
+timestamp 1712761727
 transform 1 0 -42 0 1 -4490
-box 686 -840 4075 695
+box 686 -840 3611 695
 use cbank_smol  cbank_0
-timestamp 1712760765
+timestamp 1712761727
 transform 1 0 -42 0 1 -935
-box 686 -840 4075 695
+box 686 -840 3611 695
 use ro_var_extend  ro_var_extend_0
 timestamp 1640959680
 transform 1 0 487 0 1 675
@@ -405,7 +407,7 @@ rlabel locali 3673 -825 3673 -825 1 a5
 rlabel locali 3072 -825 3072 -825 1 a4
 rlabel locali 2591 -825 2591 -825 1 a3
 rlabel locali 2101 -835 2101 -835 1 a2
-rlabel space 3630 370 3630 370 1 vcont
+rlabel locali 3630 370 3630 370 1 vcont
 rlabel space 1275 1115 1275 1115 1 vdd!
 rlabel locali 3644 713 3644 713 1 out
 << end >>
