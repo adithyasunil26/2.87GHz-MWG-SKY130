@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1712764245
+timestamp 1713075058
 << psubdiff >>
 rect 132 -121 262 -106
 rect 132 -221 147 -121
@@ -325,8 +325,9 @@ rect 2210 675 2280 685
 rect 3710 680 3730 750
 rect 3800 680 4120 750
 rect 3710 655 4120 680
-rect 4000 566 4120 655
-rect 4000 -1509 4120 455
+rect 4000 588 4120 655
+rect 4000 441 4121 588
+rect 4000 -1509 4120 441
 rect 3998 -1825 4121 -1509
 rect 4000 -3291 4120 -1825
 rect 3997 -3607 4121 -3291
@@ -378,28 +379,29 @@ rect 3563 -2030 3573 -1930
 rect 3453 -2040 3573 -2030
 rect 3834 -3794 3954 -3784
 rect 3743 -3798 3844 -3794
-rect 3560 -3894 3844 -3798
+rect 3560 -3900 3661 -3798
+rect 3693 -3894 3844 -3798
 rect 3944 -3894 3954 -3794
-rect 3560 -3900 3954 -3894
+rect 3693 -3900 3954 -3894
 rect 3743 -3901 3954 -3900
 rect 3822 -3904 3954 -3901
 rect 3822 -3907 3944 -3904
-use cbank_smol  cbank_1
+use ro_var_extend  ro_var_extend_0
+timestamp 1640959680
+transform 1 0 487 0 1 675
+box -375 -595 3780 765
+use cbank_smol  cbank_0
 timestamp 1712761727
-transform 1 0 -42 0 1 -2705
+transform 1 0 -42 0 1 -935
 box 686 -840 3611 695
 use cbank_smol  cbank_2
 timestamp 1712761727
 transform 1 0 -42 0 1 -4490
 box 686 -840 3611 695
-use cbank_smol  cbank_0
+use cbank_smol  cbank_1
 timestamp 1712761727
-transform 1 0 -42 0 1 -935
+transform 1 0 -42 0 1 -2705
 box 686 -840 3611 695
-use ro_var_extend  ro_var_extend_0
-timestamp 1640959680
-transform 1 0 487 0 1 675
-box -375 -595 3780 765
 << labels >>
 rlabel locali 1123 -825 1123 -825 1 a0
 rlabel locali 1617 -830 1617 -830 1 a1
